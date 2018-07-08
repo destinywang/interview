@@ -7,27 +7,27 @@
 
 统一收集在此, 作为自学的一种方式.
 
-| 集合 | 并发 | JVM | 框架 | 中间件 | 数据库 | 网络 | 数据结构/算法 | 分布式系统 | 架构设计 |
+| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | 网络 | 数据结构/算法 | 分布式系统 | 架构设计 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
-## 集合
+## <span id="collections">集合</span>
 
-## 并发
-- AtomicInteger 底层原理与 CAS
-- Java 并发包提供的工具
+## <span id="concurrent">并发</span>
+- [AtomicInteger 底层原理与 CAS](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/atomic-integer.md)
+- [Java 并发包提供的工具](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/java-concurrent-util.md)
 
-## JVM
+## <span id="jvm">JVM</span>
 
-## 框架
+## <span id="framework">框架</span>
 
-## 中间件
+## <span id="middleware">中间件</span>
 
-## 数据库
+## <span id="db">数据库</span>
 
-## 网络
+## <span id="network">网络</span>
 
-## 数据结构/算法
+## <span id="algorithm">数据结构/算法</span>
 
-## 分布式系统
+## <span id="distributed">分布式系统</span>
 
-## 架构设计
+## <span id="architect">架构设计</span>
