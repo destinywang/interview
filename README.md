@@ -7,7 +7,7 @@
 
 统一收集在此, 作为自学的一种方式.
 
-| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | 网络 | 数据结构/算法 | 分布式系统 | 架构设计 |
+| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | [网络](#network) | [数据结构/算法](#algorithm) | [分布式系统](#distributed) | [架构设计](#architect) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="collections">集合</span>
@@ -17,6 +17,8 @@
 - [Java 并发包提供的工具](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/java-concurrent-util.md)
 
 ## <span id="jvm">JVM</span>
+- [JVM 内存划分以及 OOM 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/memory-partitioning-of-jvm.md)
+- [Java 常见的垃圾收集器](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/garbage-collector.md)
 
 ## <span id="framework">框架</span>
 
