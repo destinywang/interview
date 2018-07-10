@@ -7,8 +7,8 @@
 
 统一收集在此, 作为自学的一种方式.
 
-| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | [网络](#network) | [数据结构/算法](#algorithm) | [分布式系统](#distributed) | [架构设计](#architect) | [常用工具](#util) |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | [网络](#network) | [数据结构/算法](#algorithm) | [分布式系统](#distributed) | [架构设计](#architect) | [面向对象](#OOD) | [常用工具](#util) |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="collections">集合</span>
 
@@ -34,6 +34,9 @@
 - [CAP 理论简介](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/CAP.md)
 
 ## <span id="architect">架构设计</span>
+
+## <span id="OOD">面向对象设计</span>
+- [贫血模型, 充血模型, 胀血模型, 领域驱动涉及]()
 
 ## <span id="util">常用工具</span>
 - [Apache Bench 和 JMeter](https://github.com/DestinyWang/interview/blob/master/blogs/util/apache-bench-and-jmeter.md)
