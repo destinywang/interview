@@ -19,6 +19,8 @@
 ## <span id="jvm">JVM</span>
 - [JVM 内存划分以及 OOM 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/memory-partitioning-of-jvm.md)
 - [Java 常见的垃圾收集器](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/garbage-collector.md)
+- [G1 GC](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/g1-gc.md)
+- [GC 调优](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/the-gc-tuning.md)
 
 ## <span id="framework">框架</span>
 
