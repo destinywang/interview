@@ -38,7 +38,7 @@
 ## <span id="architect">架构设计</span>
 
 ## <span id="OOD">面向对象设计</span>
-- [贫血模型, 充血模型, 胀血模型, 领域驱动涉及](https://github.com/DestinyWang/interview/blob/master/blogs/ood/domain-driven-design.md)
+- [贫血模型, 充血模型, 胀血模型, 领域驱动设计](https://github.com/DestinyWang/interview/blob/master/blogs/ood/domain-driven-design.md)
 
 ## <span id="util">常用工具</span>
 - [Apache Bench 和 JMeter](https://github.com/DestinyWang/interview/blob/master/blogs/util/apache-bench-and-jmeter.md)
