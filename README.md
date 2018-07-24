@@ -7,7 +7,7 @@
 
 统一收集在此, 作为自学的一种方式.
 
-| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | [网络](#network) | [数据结构/算法](#algorithm) | [分布式系统](#distributed) | [架构设计](#architect) | [面向对象](#OOD) | [常用工具](#util) |
+| [集合](#collection) | [并发](#concurrent) | [JVM](#jvm) | [框架](#framework) | [中间件](#middleware) | [数据库](#db) | [操作系统](#os) | [网络](#network) | [数据结构/算法](#algorithm) | [分布式系统](#distributed) | [架构设计](#architect) | [面向对象](#OOD) | [常用工具](#util) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="collections">集合</span>
@@ -29,6 +29,9 @@
 ## <span id="middleware">中间件</span>
 
 ## <span id="db">数据库</span>
+
+## <span id="os">操作系统</span>
+- [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
 
 ## <span id="network">网络</span>
 
