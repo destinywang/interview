@@ -1,4 +1,4 @@
-# 1. Triangle
+# 1. 题目介绍
 
 出自 Leetcode 第 120 题
 
