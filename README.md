@@ -32,6 +32,7 @@
 
 ## <span id="os">操作系统</span>
 - [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
+- [Linux 启动时遇到错误应该如何处理](https://github.com/DestinyWang/interview/blob/master/blogs/os/how-to-troubleshoot-a-linux-boot-failure.md)
 
 ## <span id="network">网络</span>
 
@@ -43,6 +44,7 @@
 - [CAP 理论简介](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/CAP.md)
 
 ## <span id="architect">架构设计</span>
+- [系统如何在不重启的情况下接收新的请求类型并转换成统一的内部模型]()
 
 ## <span id="OOD">面向对象设计</span>
 - [贫血模型, 充血模型, 胀血模型, 领域驱动设计](https://github.com/DestinyWang/interview/blob/master/blogs/ood/domain-driven-design.md)
