@@ -25,6 +25,8 @@
 - [GC 调优](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/the-gc-tuning.md)
 
 ## <span id="framework">框架</span>
+- [Spring Bean 的生命周期和作用域](https://github.com/DestinyWang/interview/blob/master/blogs/framework/the-life-cycle-and-scope-of-Spring-beans.md)
+- [Netty 核心概念](https://github.com/DestinyWang/interview/blob/master/blogs/framework/Netty.md)
 
 ## <span id="middleware">中间件</span>
 
@@ -44,7 +46,7 @@
 - [CAP 理论简介](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/CAP.md)
 
 ## <span id="architect">架构设计</span>
-- [系统如何在不重启的情况下接收新的请求类型并转换成统一的内部模型]()
+- [系统如何在不重启的情况下接收新的请求类型并转换成统一的内部模型](https://github.com/DestinyWang/interview/blob/master/blogs/architect/how-does-the-system-receive-new-request-types-without-a-reboot-and-switch-to-a-unified-internal-model.md)
 
 ## <span id="OOD">面向对象设计</span>
 - [贫血模型, 充血模型, 胀血模型, 领域驱动设计](https://github.com/DestinyWang/interview/blob/master/blogs/ood/domain-driven-design.md)
