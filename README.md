@@ -44,6 +44,7 @@
 
 ## <span id="distributed">分布式系统</span>
 - [CAP 理论简介](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/CAP.md)
+- [分布式事务](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/distributed-transaction.md)
 
 ## <span id="architect">架构设计</span>
 - [系统如何在不重启的情况下接收新的请求类型并转换成统一的内部模型](https://github.com/DestinyWang/interview/blob/master/blogs/architect/how-does-the-system-receive-new-request-types-without-a-reboot-and-switch-to-a-unified-internal-model.md)
