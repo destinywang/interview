@@ -29,6 +29,7 @@
 - [Netty 核心概念](https://github.com/DestinyWang/interview/blob/master/blogs/framework/Netty.md)
 
 ## <span id="middleware">中间件</span>
+- [ZAB 协议的基本概念](https://github.com/DestinyWang/interview/blob/master/blogs/middleware/zab.md)
 
 ## <span id="db">数据库</span>
 
