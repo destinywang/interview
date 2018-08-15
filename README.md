@@ -11,7 +11,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="core">核心概念</span>
-- [Class.forName 和 ClassLoader 的区别]()
+- [Class.forName 和 ClassLoader 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/the-difference-between-forName-and-ClassLoader.md)
 
 ## <span id="collections">集合</span>
 
