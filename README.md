@@ -24,6 +24,7 @@
 ## <span id="jvm">JVM</span>
 - [JVM 内存划分以及 OOM 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/memory-partitioning-of-jvm.md)
 - [Java 常见的垃圾收集器](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/garbage-collector.md)
+- [CMS GC](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/cms-gc.md)
 - [G1 GC](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/g1-gc.md)
 - [GC 调优](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/the-gc-tuning.md)
 - [谈谈线上 JVM 的启动参数](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/jvm-startup-parameters.md)
