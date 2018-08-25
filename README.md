@@ -7,7 +7,7 @@
 
 统一收集在此, 作为自学的一种方式.
 
-| [Java 核心概念](#core) | [集合](#集合) | [并发](#并发) | [JVM](#JVM) | [框架](#框架) | [中间件](#中间件) | [数据库](#数据库) | [操作系统](#操作系统) | [网络](#网络) | [数据结构/算法](#算法) | [分布式系统](#分布式系统) | [架构设计](#架构设计) | [面向对象](#面向对象) | [常用工具](#常用工具) |
+| [Java 核心概念](#core) | [集合](#集合) | [并发](#并发) | [JVM](#jvm) | [框架](#框架) | [中间件](#中间件) | [数据库](#数据库) | [操作系统](#操作系统) | [网络](#网络) | [数据结构/算法](#算法) | [分布式系统](#分布式系统) | [架构设计](#架构设计) | [面向对象](#面向对象) | [常用工具](#常用工具) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="core">核心概念</span>
@@ -26,6 +26,7 @@
 - [Java 常见的垃圾收集器](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/garbage-collector.md)
 - [G1 GC](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/g1-gc.md)
 - [GC 调优](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/the-gc-tuning.md)
+- [谈谈线上 JVM 的启动参数](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/jvm-startup-parameters.md)
 
 ## <span id="framework">框架</span>
 - [Spring Bean 的生命周期和作用域](https://github.com/DestinyWang/interview/blob/master/blogs/framework/the-life-cycle-and-scope-of-Spring-beans.md)
