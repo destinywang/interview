@@ -55,6 +55,7 @@
 
 ## <span id="architect">架构设计</span>
 - [系统如何在不重启的情况下接收新的请求类型并转换成统一的内部模型](https://github.com/DestinyWang/interview/blob/master/blogs/architect/how-does-the-system-receive-new-request-types-without-a-reboot-and-switch-to-a-unified-internal-model.md)
+- [如何实现分布式锁](https://github.com/DestinyWang/interview/blob/master/blogs/architect/distributed-lock.md)
 
 ## <span id="OOD">面向对象设计</span>
 - [贫血模型, 充血模型, 胀血模型, 领域驱动设计](https://github.com/DestinyWang/interview/blob/master/blogs/ood/domain-driven-design.md)
