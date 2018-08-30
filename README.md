@@ -11,7 +11,8 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## <span id="core">核心概念</span>
-- [Class.forName 和 ClassLoader 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/the-difference-between-forName-and-ClassLoader.md)
+- [Class.forName() 和 ClassLoader 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/the-difference-between-forName-and-ClassLoader.md)
+- [对象逃逸分析](https://github.com/DestinyWang/interview/blob/master/blogs/core/escape-analysis.md)
 
 ## <span id="collections">集合</span>
 
@@ -32,7 +33,7 @@
 ## <span id="framework">框架</span>
 - [Spring Bean 的生命周期和作用域](https://github.com/DestinyWang/interview/blob/master/blogs/framework/the-life-cycle-and-scope-of-Spring-beans.md)
 - [Netty 核心概念](https://github.com/DestinyWang/interview/blob/master/blogs/framework/Netty.md)
-- [Netty 如何解决空轮训](https://github.com/DestinyWang/interview/blob/master/blogs/framework/how-netty-solves-the-empty-wheel-training.md)
+- [Netty 如何解决空轮询](https://github.com/DestinyWang/interview/blob/master/blogs/framework/how-netty-solves-the-empty-wheel-training.md)
 
 ## <span id="middleware">中间件</span>
 - [ZAB 协议的基本概念](https://github.com/DestinyWang/interview/blob/master/blogs/middleware/zab.md)
