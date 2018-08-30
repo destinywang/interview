@@ -30,3 +30,30 @@
 所以, 对于软引用和弱引用, 垃圾收集器可能会存在二次确认, 以保证处于弱引用状态的对象没有改变为强引用.
 
 但如果我们错误的保持了强引用(比如赋值给了 static 变量), 那么对象可能就没有机会变成其他的可达性状态, 就会产生内存泄漏. 所以, 检查弱引用指向对象是否被垃圾收集, 也是诊断是否有特定内存泄漏的一个思路, 如果使用的框架中使用到弱引用又怀疑有内存泄漏, 就可以从这个角度检查.
+
+## 2.2 引用队列
+我们在创建各种引用关系并关联到响应对象的时候, 可以选择是否需要关联引用队列, JVM 会在特定的时机将引用 `enqueue` 到队列里, 我们可以从队列里获得引用进行相关后续逻辑.
+
+尤其是虚引用, get 方法只能返回 null, 如果再不指定引用队列, 基本就没有意义了.
+
+> 利用引用队列, 我们可以在对象处于对应状态时(对于虚引用, 就是前面说的被 `finalize` 了), 执行后期处理逻辑.
+
+```java
+Object counter = new Object();
+ReferenceQueue refQueue = new ReferenceQueue<>();
+PhantomReference<Object> p = new PhantomReference<>(counter, refQueue);
+counter = null;
+System.gc();
+try {
+    // remove 是一个阻塞方法, 可以指定 timeout, 或者选择一直阻塞
+    Reference<Object> ref = refQueue.remove(1000L);
+    if (ref != null) {
+        // do something
+    }
+} catch (InterruptedException e) {
+    // handle it
+}
+```
+
+## 2.3 显式地影响软引用垃圾收集
+软引用通常会在最后一次引用后, 还能保持一段时间, 默认值是根据堆维持的剩余空间计算的.
