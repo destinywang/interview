@@ -41,6 +41,8 @@
 - [ZAB 协议的基本概念](https://github.com/DestinyWang/interview/blob/master/blogs/middleware/zab.md)
 
 ## <span id="db">数据库</span>
+- [InnoDB 如何实现高并发](https://github.com/DestinyWang/interview/blob/master/blogs/db/innodb-transaction-model.md)
+
 
 ## <span id="os">操作系统</span>
 - [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
