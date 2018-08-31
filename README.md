@@ -14,6 +14,7 @@
 - [Class.forName() 和 ClassLoader 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/the-difference-between-forName-and-ClassLoader.md)
 - [对象逃逸分析](https://github.com/DestinyWang/interview/blob/master/blogs/core/escape-analysis.md)
 - [谈谈对强软弱虚四种引用的理解](https://github.com/DestinyWang/interview/blob/master/blogs/core/strong-soft-weak-virtual-reference.md)
+- [String, StringBuffer, StringBuilder 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/string-stringbuilder-stringbuffer.md)
 
 ## <span id="collections">集合</span>
 

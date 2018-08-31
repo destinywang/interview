@@ -8,6 +8,14 @@
     <artifactId>interview</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <developers>
+        <developer>
+            <name>destiny</name>
+            <email>destinywk@163.com</email>
+            <url>https://github.com/DestinyWang</url>
+        </developer>
+    </developers>
+
     <build>
         <plugins>
             <plugin>
