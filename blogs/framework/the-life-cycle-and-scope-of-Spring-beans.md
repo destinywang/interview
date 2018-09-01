@@ -4,9 +4,9 @@
 1. 实例化 Bean 对象
 2. 设置 Bean 属性
 3. 如果通过各种 `Aware` 接口声明了依赖关系, 则会注入 Bean 对容器基础设施层面的依赖
-    1. BeanNameAware 会注入 Bean id
-    2. BeanFactoryAware 会注入 Bean Factory
-    3. ApplicationContextAware 会注入 Application Context
+    - BeanNameAware 会注入 Bean id
+    - BeanFactoryAware 会注入 Bean Factory
+    - ApplicationContextAware 会注入 Application Context
 4. 调用 BeanPostProcessor 的前置初始化方法 `postProcessBeforeInitialization`
 5. 如果实现了 `InitializingBean` 接口, 则会调用 `afterPropertiesSet` 方法
 6. 调用 Bean 自身定义的 init 方法
