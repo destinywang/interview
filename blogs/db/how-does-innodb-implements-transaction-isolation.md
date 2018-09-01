@@ -25,7 +25,7 @@ tb(id primary key, name);
 
 # 2. 不可重复读
 |事务 A|事务 B|
-|---|---|
+|:-:|:-:|
 |`SELECT * FROM tb where id = 1` | - |
 | 返回(1, 'freedom') | - |
 | - | `UPDATE tb SET name = 'gundam' where id = 1;` |
@@ -42,7 +42,7 @@ tb(id primary key, name);
 
 # 3. 幻读
 |事务 A|事务 B|
-|---|---|
+|:-:|:-:|
 |`SELECT * FROM tb where id > 3| - |
 | `commit `| - |
 | 返回 NULL | - |

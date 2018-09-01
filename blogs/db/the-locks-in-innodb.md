@@ -22,7 +22,7 @@ tb(id auto_increment primary key, name);
 然后进行如下操作: 
 
 |事务 A|事务 B|
-|---|---|
+|:-:|:-:|
 |`INSERT INTO tb VALUES (4, 'F91')` | - |
 | - |`INSERT INTO tb VALUES (5, 'RX-87')` |
 | `commit` | - |

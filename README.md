@@ -43,6 +43,7 @@
 ## <span id="db">数据库</span>
 - [InnoDB 如何实现高并发](https://github.com/DestinyWang/interview/blob/master/blogs/db/innodb-transaction-model.md)
 - [InnoDB 如何实现事务的隔离级别](https://github.com/DestinyWang/interview/blob/master/blogs/db/how-does-innodb-implements-transaction-isolation.md)
+- [详解 InnoDB 锁机制](https://github.com/DestinyWang/interview/blob/master/blogs/db/the-locks-in-innodb.md)
 
 ## <span id="os">操作系统</span>
 - [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
