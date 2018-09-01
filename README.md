@@ -15,6 +15,7 @@
 - [对象逃逸分析](https://github.com/DestinyWang/interview/blob/master/blogs/core/escape-analysis.md)
 - [谈谈对强软弱虚四种引用的理解](https://github.com/DestinyWang/interview/blob/master/blogs/core/strong-soft-weak-virtual-reference.md)
 - [String, StringBuffer, StringBuilder 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/string-stringbuilder-stringbuffer.md)
+- [Java 中文件的复制方式](https://github.com/DestinyWang/interview/blob/master/blogs/core/file-copy.md)
 
 ## <span id="collections">集合</span>
 
