@@ -1,3 +1,7 @@
+Linux 各个系统的诊断命令
+
+![](.how-do-you-locate-slow-thread_images/d2ae6961.png)
+
 # 1. 分析 CPU
 
 对于 CPU, 如果是常见的 Linux 系统, 可以先用 top 命令查看负责情况
