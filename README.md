@@ -24,6 +24,7 @@
 - [Java 并发包提供的工具](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/java-concurrent-util.md)
 - [线程安全的单例模式](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/thread-safe-singleton.md)
 - [AQS 源码分析](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/abstract-queue-synchronized.md)
+- [synchronized 简介](https://github.com/DestinyWang/interview/blob/master/blogs/concurrent/synchronized.md)
 
 ## <span id="jvm">JVM</span>
 - [JVM 内存划分以及 OOM 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/memory-partitioning-of-jvm.md)
