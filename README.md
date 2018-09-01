@@ -33,6 +33,7 @@
 - [G1 GC](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/g1-gc.md)
 - [GC 调优](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/the-gc-tuning.md)
 - [谈谈线上 JVM 的启动参数](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/jvm-startup-parameters.md)
+- [谈谈对 OOM 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/out-of-memory-error.md)
 
 ## <span id="framework">框架</span>
 - [Spring Bean 的生命周期和作用域](https://github.com/DestinyWang/interview/blob/master/blogs/framework/the-life-cycle-and-scope-of-Spring-beans.md)
