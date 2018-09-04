@@ -60,7 +60,7 @@
 - [三角形最小路径和](https://github.com/DestinyWang/interview/blob/master/blogs/algorithm/Triangle.md)
 - [找到所有数组中消失的数字](https://github.com/DestinyWang/interview/blob/master/blogs/algorithm/Find-All-Numbers-Disappeared-in-an-Array.md)
 - [海量数据查询的问题汇总](https://github.com/DestinyWang/interview/blob/master/blogs/algorithm/find-repeats-most.md)
-- [两数之和 II - 输入有序数组]()
+- [两数之和 II - 输入有序数组](https://github.com/DestinyWang/interview/blob/master/blogs/algorithm/Two-Sum-II-Input-array-is-sorted.md)
 
 ## <span id="distributed">分布式系统</span>
 - [CAP 理论简介](https://github.com/DestinyWang/interview/blob/master/blogs/distributed/CAP.md)
