@@ -53,6 +53,7 @@
 ## <span id="os">操作系统</span>
 - [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
 - [Linux 启动时遇到错误应该如何处理](https://github.com/DestinyWang/interview/blob/master/blogs/os/how-to-troubleshoot-a-linux-boot-failure.md)
+- [深入理解同步/异步/阻塞/非阻塞的区别](https://github.com/DestinyWang/interview/blob/master/blogs/os/synchronous-asynchronous-blocking-non-blocking.md)
 
 ## <span id="network">网络</span>
 
