@@ -200,7 +200,7 @@ JVM 参数
 其中, 编译属性 `attribute` 分为:
 
 属性值 | 属性描述
----|---
+:-:|:-:
 % | The compilation is OSR
 s | The method is synchronized
 ! | The method has an exception handler
@@ -210,7 +210,7 @@ n | Compliation occurred for a wrapper to a native method
 tiered_level:
 
 值 | 描述
----|---
+:-:|:-:
 0 | Interpreted Code
 1 | Simple C1 Compiled Code
 2 | Limited C1 Compiled Code
