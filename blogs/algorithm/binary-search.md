@@ -22,3 +22,8 @@ public class BinarySearch<T> {
     }
 }
 ```
+
+这里会隐藏一个小 bug:
+
+> 当 l 和 r 都足够大的时候(非常接近 int 最大值), 可能会出现 l + r 溢出的情况  
+可以将 `mid = (l + r) / 2` 改成 `mid = l + (r - l) / 2`
