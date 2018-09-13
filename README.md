@@ -59,6 +59,7 @@
 ## <span id="network">网络</span>
 - [从浏览器输入 URL 到呈现页面会经过哪些步骤](https://github.com/DestinyWang/interview/blob/master/blogs/network/what-happens-from-the-input-URL-to-display-page.md)
 - [TCP 拥塞控制](https://github.com/DestinyWang/interview/blob/master/blogs/network/tcp-congestion-control.md)
+- [ping 命令是如何工作的](https://github.com/DestinyWang/interview/blob/master/blogs/network/how-does-ping-cmd-works.md)
 
 ## <span id="algorithm">数据结构/算法</span>
 - [三角形最小路径和](https://github.com/DestinyWang/interview/blob/master/blogs/algorithm/Triangle.md)
