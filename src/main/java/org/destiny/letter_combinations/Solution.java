@@ -16,7 +16,7 @@ class Solution {
     List<String> res = new ArrayList<>();
 
     private static final String[] letterMap = new String[] {
-            " ",         // 0
+            " ",        // 0
             "",         // 1
             "abc",      // 2
             "def",      // 3
