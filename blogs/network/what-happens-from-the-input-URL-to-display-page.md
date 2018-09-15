@@ -1,11 +1,11 @@
 > 在浏览器中输入 www.baidu.com
 
 # 1. DNS
-首先, 浏览器会查询 DNS 或者 HTTPDNS, 得到 `www.baidu.com` 对应的 IP 地址, 浏览器将请求进行打包
+> 首先, 浏览器会查询 DNS 或者 HTTPDNS, 得到 `www.baidu.com` 对应的 IP 地址, 浏览器将请求进行打包.  
+DNS, HTTP, HTTPS 所在的层被称为应用层, 浏览器将应用层的包交给下一层完成.
 
 ![](.what-happens-from-the-input-URL-to-display-page_images/ab166fb7.png)
 
-DNS, HTTP, HTTPS 所在的层被称为应用层, 浏览器将应用层的包交给下一层完成.
 
 # 2. TCP 协议进行封装
 > TCP 协议中有两个端口, 浏览器监听的端口和服务器监听的端口, 操作系统根据端口号来判断得到的包应该交给哪个进程.
@@ -92,6 +92,9 @@ A 要告诉 B, 发起的包的序号是从哪个开始, B 同样需要告诉 A, 
 ![](http://oetw0yrii.bkt.clouddn.com/18-9-15/58286916.jpg)
 
 ### 2.3.3 TCP 如何实现可靠
+
+> TCP 协作作为一个可靠的面向流的传输协议, 其可靠性和流量控制由滑动窗口实现, 而拥塞控制则由拥塞窗口结合一系列控制算法实现.
+
 #### 1. 顺序性
 为了保证顺序性, 每个包都有一个 ID, 在建立连接的时候, 会商定其实的 ID 是什么, 然后按照 ID 一个一个发送.
 
@@ -160,7 +163,7 @@ AdvertisedWindow 其实就是 MaxRcvBuffer 减去 A
 > 刚刚加入网络的连接, 一点一点地进行提速.
 
 具体过程:
-1. 连接建立好之后, 先初始化 cwnd = 1, 表明可以传一个 MSS 大小的数据.
+1. 连接建立好之后, 先初始化 cwnd = 1, 表明可以传一个 MSS 大小的数据.(MSS, Max Segment Size, 是 TCP数据包每次能够传输的最大数据分段)
 2. 每当收到一个 ACK, cwnd++, 呈线性上升
 3. 每当过了一个 RTT, cwnd = cwnd * 2, 成指数上升
 4. 还有一个 `ssthresh(slow start threshold)`, 是一个上限，当cwnd >= ssthresh 时, 就会进入 `拥塞避免算法`
