@@ -19,24 +19,24 @@ public class QuickSort {
             return;
         }
         int i = low, j = high;
-        int p = array[low];
+        int t = array[i];
         while (i < j) {
-            while (i < j && array[j] >= p) {
-                j --;
+            while (i < j && array[j] >= t) {
+                --j;
             }
             array[i] = array[j];
-            while (i < j && array[i] < p) {
-                i ++;
+            while (i < j && array[i] <= t) {
+                ++i;
             }
             array[j] = array[i];
         }
-        array[i] = p;
+        array[i] = t;
         quickSort(array, low, i - 1);
         quickSort(array, i + 1, high);
     }
 
     public static void main(String[] args) {
-        int[] ints = {6, 2, 5, 7, 1, 0, 9, 3, 4, 8};
+        int[] ints = {6, 2, 5, 7, 1, 0, 9, 3, 4, 8, 8};
         quickSort(ints, 0, ints.length -1);
         System.out.println(Arrays.toString(ints));
     }
