@@ -1,6 +1,4 @@
-package org.destiny.byte_dance.add_two_numbers;
-
-import java.util.Stack;
+package org.destiny.bytedance.add_two_numbers;
 
 /**
  * @author destiny

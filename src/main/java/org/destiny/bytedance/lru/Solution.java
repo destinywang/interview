@@ -1,4 +1,4 @@
-package org.destiny.byte_dance.lru;
+package org.destiny.bytedance.lru;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ import java.util.Map;
  * @version 1.8
  * @since JDK 1.8.0_101
  */
-public class MyLru {
+public class Solution {
 
     private static final int CAPACITY = 100;
     private static int CURR_CNT = 0;
