@@ -1,4 +1,4 @@
-package org.destiny.lru;
+package org.destiny.byte_dance.lru;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,11 @@ import java.util.Map;
  * @author destiny
  * destinywk@163.com
  * ------------------------------------------------------------------
- * <p></p>
+ * <p>
+ *     字节跳动视频面试二面题目
+ *     设计一个 LRU 算法, 保证该 LRU 的 get() 和 set() 操作时间复杂度都为 O(1)
+ *     同时要求当 LRU 超过一定的长度后, 需要将末端的数据删除
+ * </p>
  * ------------------------------------------------------------------
  * design by 2018/9/18 21:46
  * @version 1.8
@@ -84,6 +88,7 @@ public class MyLru {
         }
         Node newHead = new Node(key);
         newHead.next = head;
+        head.prev = newHead;
         head = newHead;
     }
 

@@ -1,4 +1,4 @@
-package org.destiny;
+package org.destiny.byte_dance.add_two_numbers;
 
 import java.util.Stack;
 
@@ -6,7 +6,9 @@ import java.util.Stack;
  * @author destiny
  * destinywk@163.com
  * -------------------------------------------
- * <p></p>
+ * <p>
+ *     字节跳动视频面试一面算法题: AddTwoNumbers
+ * </p>
  * -------------------------------------------
  * design by 2018/9/12 20:18
  * @version 1.8
@@ -69,14 +71,14 @@ public class Solution {
         return prev;
     }
 
-}
+    class Node {
+        int val;
+        Node next;
 
-class Node {
-    int val;
-    Node next;
-
-    public Node(int val) {
-        this.val = val;
-        next = null;
+        public Node(int val) {
+            this.val = val;
+            next = null;
+        }
     }
 }
+
