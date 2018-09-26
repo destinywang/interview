@@ -55,6 +55,7 @@
 - [从打开电源到出现显示桌面, 计算机都干了些什么事情](https://github.com/DestinyWang/interview/blob/master/blogs/os/what-does-the-computer-do-from-turning-on-the-power-to-the-display-desktop.md)
 - [Linux 启动时遇到错误应该如何处理](https://github.com/DestinyWang/interview/blob/master/blogs/os/how-to-troubleshoot-a-linux-boot-failure.md)
 - [深入理解同步/异步/阻塞/非阻塞的区别](https://github.com/DestinyWang/interview/blob/master/blogs/os/synchronous-asynchronous-blocking-non-blocking.md)
+- [如何解释 select, poll, epoll 之间的区别](https://github.com/DestinyWang/interview/blob/master/blogs/os/select-poll-epoll.md)
 
 ## <span id="network">网络</span>
 - [从浏览器输入 URL 到呈现页面会经过哪些步骤](https://github.com/DestinyWang/interview/blob/master/blogs/network/what-happens-from-the-input-URL-to-display-page.md)
