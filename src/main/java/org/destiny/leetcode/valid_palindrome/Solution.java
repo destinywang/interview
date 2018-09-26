@@ -1,4 +1,4 @@
-package org.destiny.valid_palindrome;
+package org.destiny.leetcode.valid_palindrome;
 
 /**
  * @author destiny

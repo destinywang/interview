@@ -1,4 +1,4 @@
-package org.destiny.letter_combinations;
+package org.destiny.leetcode.letter_combinations;
 
 
 import java.util.ArrayList;

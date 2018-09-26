@@ -1,4 +1,4 @@
-package org.destiny.merge_sorted_array;
+package org.destiny.leetcode.merge_sorted_array;
 
 import java.util.Arrays;
 

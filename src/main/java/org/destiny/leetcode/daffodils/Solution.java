@@ -1,4 +1,4 @@
-package org.destiny.daffodils;
+package org.destiny.leetcode.daffodils;
 
 import java.util.ArrayList;
 import java.util.List;
