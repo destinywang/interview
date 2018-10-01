@@ -16,6 +16,7 @@
 - [谈谈对强软弱虚四种引用的理解](https://github.com/DestinyWang/interview/blob/master/blogs/core/strong-soft-weak-virtual-reference.md)
 - [String, StringBuffer, StringBuilder 的区别](https://github.com/DestinyWang/interview/blob/master/blogs/core/string-stringbuilder-stringbuffer.md)
 - [Java 中文件的复制方式](https://github.com/DestinyWang/interview/blob/master/blogs/core/file-copy.md)
+- [如何解释内部匿名类使用外部变量要加final](https://github.com/DestinyWang/interview/blob/master/blogs/core/why-add-final-to-internal-anonymous-classes-using-external-variables.md)
 
 ## <span id="collections">集合</span>
 
