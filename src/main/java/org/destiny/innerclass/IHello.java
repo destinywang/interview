@@ -12,6 +12,6 @@ package org.destiny.innerclass;
  */
 public interface IHello {
 
-    void say(String name);
+    void say();
 
 }

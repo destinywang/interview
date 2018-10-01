@@ -13,14 +13,14 @@ package org.destiny.innerclass;
 public class Demo {
 
     public void run() {
-        String myName = "destiny";
+        final String myName = "destiny";
         IHello hello = new IHello() {
             @Override
-            public void say(String name) {
-                System.out.println("hello " + name);
+            public void say() {
+                System.out.println("hello " + myName);
             }
         };
-        hello.say(myName);
+        hello.say();
     }
 
     public static void main(String[] args) {
