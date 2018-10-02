@@ -38,6 +38,7 @@
 - [如何定位执行慢的问题](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/how-do-you-locate-slow-thread.md)
 - [谈谈对 JIT 的理解](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/jit.md)
 - [JVM 逃逸分析](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/escape-analysis.md)
+- [当一个线程抛出了 OOM, 同进程的其他线程是否可以正常执行](https://github.com/DestinyWang/interview/blob/master/blogs/jvm/one-thread-oom-other-threads-behavior.md)
 
 ## <span id="framework">框架</span>
 - [Spring Bean 的生命周期和作用域](https://github.com/DestinyWang/interview/blob/master/blogs/framework/the-life-cycle-and-scope-of-Spring-beans.md)
