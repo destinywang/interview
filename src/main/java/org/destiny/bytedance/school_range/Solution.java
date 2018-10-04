@@ -26,32 +26,31 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Sequence wordA = new Sequence() {
+        scenario wordA = new scenario() {
             @Override
             public boolean judge(String range) {
                 return range.charAt(1) == 'e';
             }
         };
 
-        Sequence wordB = new Sequence() {
+        scenario wordB = new scenario() {
             @Override
             public boolean judge(String range) {
                 return range.charAt(2) == 'b';
             }
         };
 
-        Sequence wordC = null;
-        Sequence wordD = null;
-        Sequence wordE = null;
+        scenario wordC = null;
+        scenario wordD = null;
+        scenario wordE = null;
 
-        Map<Character, Sequence> map = new HashMap<>();
+        Map<Character, scenario> map = new HashMap<>();
         map.put('a', wordA);
         map.put('b', wordB);
         map.put('c', wordC);
         map.put('d', wordD);
         map.put('e', wordE);
 
-        boolean flag = false;
         List<String> results = fullComplex("abcde");
         for (String result : results) {
             // 判断是否符合 1, 2 正确, 345错误
@@ -75,10 +74,3 @@ public class Solution {
 }
 
 
-/**
- * 学校的观点
- */
-interface Sequence {
-
-    boolean judge(String range);
-}
